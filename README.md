@@ -1,1 +1,1 @@
-# webgames
+# rock, paper, scissors
