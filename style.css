@@ -1,0 +1,69 @@
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    background: url('https://c4.wallpaperflare.com/wallpaper/899/325/192/minimalism-rock-paper-scissors-wallpaper-preview.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .game-container {
+    margin-top: 10%;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    display: inline-block;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  #instruction {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .choices button {
+    font-size: 1.5rem;
+    margin: 10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background: #ffcc00;
+    color: black;
+    transition: transform 0.2s, background-color 0.3s;
+  }
+  
+  .choices button:hover {
+    transform: scale(1.1);
+    background: #ffaa00;
+  }
+  
+  .results {
+    margin-top: 20px;
+    font-size: 1.5rem;
+  }
+  
+  .score {
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #play-again {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    background: #dee109;}
